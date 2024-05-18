@@ -36,7 +36,7 @@ Install the dependencies:
 pip install -r requirements.txt
 
 4.Usage
-5.Command Line
+Command Line
 You can use the provided command-line tool to recognize faces in images.
 
 Detect Faces
@@ -47,7 +47,7 @@ Recognize Faces
 To recognize faces in an image based on known faces:
 python recognize_faces.py --image path/to/your/image.jpg --known_faces_dir path/to/known_faces
 
-6.Python Script
+Python Script
 You can also use the face_recognition library directly in your Python scripts. Here's an example:
 import face_recognition
 
