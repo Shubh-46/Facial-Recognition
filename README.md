@@ -50,14 +50,13 @@ python recognize_faces.py --image path/to/your/image.jpg --known_faces_dir path/
 Python Script
 You can also use the face_recognition library directly in your Python scripts. Here's an example:
 import face_recognition
-
-# Load the image
+Load the image
 image = face_recognition.load_image_file("path/to/your/image.jpg")
 
-# Find all face locations in the image
+Find all face locations in the image
 face_locations = face_recognition.face_locations(image)
 
-# Find all face encodings in the image
+Find all face encodings in the image
 face_encodings = face_recognition.face_encodings(image, face_locations)
 
 for face_encoding in face_encodings:
